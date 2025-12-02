@@ -1,12 +1,17 @@
 # Autonomous Aerial Robotics
 
-# **Defend The Republic: Autonomous Aerial Computer Vision System**
+## **Defend The Republic: Autonomous Aerial Computer Vision System**
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-orange)
+![Platform](https://img.shields.io/badge/Hardware-Raspberry%20Pi%204-red)
+![Status](https://img.shields.io/badge/Status-In%20Progress-green)
 
 ## **Project Overview**
 
-This repository contains the computer vision subsystem for the Defend The Republic (DTR) autonomous aerial competition team at Indiana University Bloomington.
+This repository contains the computer vision subsystem for the **Defend The Republic (DTR)** autonomous aerial competition team at Indiana University Bloomington.
 
-As a Junior Intelligent Systems Engineering student, my role focused on developing a low-latency object detection and range-finding pipeline. The system enables an autonomous blimp to identify game pieces (balloons and goals), calculate their precise 3D position relative to the vehicle, and feed navigation data to the flight controller in real time.
+As a Junior Intelligent Systems Engineering student, my role focused on developing a **low-latency object detection and range-finding pipeline**. The system enables an autonomous blimp/drone to identify game pieces (balloons and goals), calculate their precise 3D position relative to the vehicle, and feed navigation data to the flight controller in real time.
 
 ---
 
@@ -22,7 +27,7 @@ As a Junior Intelligent Systems Engineering student, my role focused on developi
 
 The pipeline processes video input to output navigation vectors for the flight controller.
 
-![System Architecture](images/architecture_flowchart.png)
+![System Architecture](visuals/architecture_flowchart.png)
 
 ---
 
@@ -55,40 +60,41 @@ We implemented a custom script to calculate focal length based on **real-world p
 
 ---
 
-## **Performance Visuals**
+## **Performance Metrics**
 
 Below is a comparison of our optimization steps. We successfully reduced inference time by over 80% while maintaining detection precision.
 
-![Performance Table](images/performance_table.png)
-
-### **Live Detection & Inference Speed**
-*(Screenshots from live testing on the Raspberry Pi 4)*
-
-<p float="left">
-  <img src="images/detection_demo_1.png" width="45%" />
-  <img src="images/detection_demo_2.png" width="45%" /> 
-</p>
+![Performance Table](visuals/performance_table.png)
 
 ---
 
-## **Results**
+## **Results & Accuracy**
 
 ### **Confusion Matrix**
-Our model performance across all 8 classes:
+Our model performance across all 8 classes on the test set:
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](visuals/confusion_matrix.png)
 
 ---
 
-## **Demos (Click to watch video)**
+## **Project Gallery & Visuals**
 
-### **Autonomous Navigation Test**
-[![Demo Video Thumbnail](https://img.youtube.com/vi/WBped-qodn4/maxresdefault.jpg)](https://www.youtube.com/watch?v=WBped-qodn4)
+Here are demonstrations of the live object detection system running on the Raspberry Pi 4.
 
-### **Angle and Distance Calculation**
-The field of view is 40 degrees. The angles are displayed in the bottom left corner of the bounded box.
+### **Live Inference Views**
+The system displays confidence scores and real-time inference speed (approx 180ms).
 
-[![Angle and Distance Demo Thumbnail](https://img.youtube.com/vi/lM5H7Te9Ru0/maxresdefault.jpg)](https://www.youtube.com/watch?v=lM5H7Te9Ru0)
+<p float="left">
+  <img src="visuals/detection_demo_2.png" width="45%" />
+  <img src="visuals/detection_demo_1.png" width="45%" /> 
+</p>
+
+### **Demos (Click to watch)**
+
+| **Autonomous Flight Test** | **Angle & Distance Calculation** |
+|:---:|:---:|
+| [![Demo 1](https://img.youtube.com/vi/WBped-qodn4/0.jpg)](https://www.youtube.com/watch?v=WBped-qodn4) | [![Demo 2](https://img.youtube.com/vi/lM5H7Te9Ru0/0.jpg)](https://www.youtube.com/watch?v=lM5H7Te9Ru0) |
+| *Full flight integration test* | *FOV 40° with coordinate output* |
 
 ---
 
