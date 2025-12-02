@@ -27,7 +27,7 @@ As a Junior Intelligent Systems Engineering student, my role focused on developi
 
 The pipeline processes video input to output navigation vectors for the flight controller.
 
-![System Architecture](visuals/architecture_flowchart.png)
+![System Architecture](Visuals/architecture_flowchart.png)
 
 ---
 
@@ -64,7 +64,7 @@ We implemented a custom script to calculate focal length based on **real-world p
 
 Below is a comparison of our optimization steps. We successfully reduced inference time by over 80% while maintaining detection precision.
 
-![Performance Table](visuals/performance_table.png)
+![Performance Table](Visuals/performance_table.png)
 
 ---
 
@@ -73,7 +73,7 @@ Below is a comparison of our optimization steps. We successfully reduced inferen
 ### **Confusion Matrix**
 Our model performance across all 8 classes on the test set:
 
-![Confusion Matrix](visuals/confusion_matrix.png)
+![Confusion Matrix](Visuals/confusion_matrix.png)
 
 ---
 
@@ -85,8 +85,8 @@ Here are demonstrations of the live object detection system running on the Raspb
 The system displays confidence scores and real-time inference speed (approx 180ms).
 
 <p float="left">
-  <img src="visuals/detection_demo_2.png" width="45%" />
-  <img src="visuals/detection_demo_1.png" width="45%" /> 
+  <img src="Visuals/detection_demo_2.png" width="45%" />
+  <img src="Visuals/detection_demo_1.png" width="45%" /> 
 </p>
 
 ### **Demos (Click to watch)**
