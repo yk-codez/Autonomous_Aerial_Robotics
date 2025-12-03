@@ -91,7 +91,7 @@ The system displays confidence scores and real-time inference speed (approx 180m
 | **Autonomous Flight Test** | **Angle & Distance Calculation** |
 |:---:|:---:|
 | [![Demo 1](https://img.youtube.com/vi/WBped-qodn4/0.jpg)](https://www.youtube.com/watch?v=WBped-qodn4) | [![Demo 2](https://img.youtube.com/vi/lM5H7Te9Ru0/0.jpg)](https://www.youtube.com/watch?v=lM5H7Te9Ru0) |
-| *Full flight integration test* | *FOV 40° with coordinate output* |
+| *Live Balloon Capture* | *FOV 40° with coordinate output* |
 
 ---
 
@@ -104,5 +104,12 @@ The system displays confidence scores and real-time inference speed (approx 180m
 
 **Yoav K.** Junior, Intelligent Systems Engineering @ IU Bloomington
 
-**LinkedIn:** [Your LinkedIn URL]
+**LinkedIn:** www.linkedin.com/in/yoav-krieger
+
 **Email:** ykrieger@iu.edu
+
+
+
+
+
+
