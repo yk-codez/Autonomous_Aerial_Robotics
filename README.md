@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-orange)
 ![Platform](https://img.shields.io/badge/Hardware-Raspberry%20Pi%204-red)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+![Status](https://img.shields.io/badge/Status-Complete-green)
 
 ## **Project Overview**
 
