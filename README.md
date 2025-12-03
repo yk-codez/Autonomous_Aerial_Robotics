@@ -64,7 +64,7 @@ We implemented a custom script to calculate focal length based on **real-world p
 
 Below is a comparison of our optimization steps. We successfully reduced inference time by over 80% while maintaining detection precision.
 
-![Performance Matrix](Visuals/performance_matrix.png)
+![Performance Metrics](Visuals/inference%20time.png)
 
 ---
 
@@ -73,7 +73,7 @@ Below is a comparison of our optimization steps. We successfully reduced inferen
 ### **Confusion Matrix**
 Our model performance across all 8 classes on the test set:
 
-![Inference Table](Visuals/inference%20time.png)
+![Confusion Matrix](Visuals/confusion_matrix.png)
 
 ---
 
@@ -94,6 +94,11 @@ The system displays confidence scores and real-time inference speed (approx 180m
 | *Full flight integration test* | *FOV 40° with coordinate output* |
 
 ---
+
+## **Competiton**
+
+![Autonomous Brawl](Visuals/result.jpeg)
+
 
 ## **Contact**
 
